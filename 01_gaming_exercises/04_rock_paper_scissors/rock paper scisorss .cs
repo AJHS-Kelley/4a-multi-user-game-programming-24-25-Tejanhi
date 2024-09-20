@@ -63,6 +63,55 @@ Console.WriteLine
 
 
 
+  // Allow CPU to select randomly.
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ // Compare the two choices and determine a winner.
+if (playerChoice ==)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
