@@ -1,3 +1,75 @@
-Please delete this file after cloning the repository. 
+using System;
+class Template {
+    static void Main() {
+        string playerName = "Test Player";
+        // Player and CPU variable to store choices.
+        int playerChoice;
+        int cpuChoice;
+        // Player and CPU variable to store choices.
+        int playerChoice;
+        int cpuChoice;
 
-Then commit the changes to GitHub after deleting ALL of the placeholder files. 
+
+
+Console.WriteLine("Welcome to the Rock, Paper, Scissors Boy! /n");
+Console.WriteLine("Please type your name and press ENTER. /n");
+playerName = Console.ReadLine();
+Console.WriteLine
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ while (playerScore < 5 && cpuScore < 5)
+     // Print the scores
+     Console.WriteLine($"Your Score: {playerScore}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
