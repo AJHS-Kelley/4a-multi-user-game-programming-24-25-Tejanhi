@@ -4,10 +4,10 @@ class Template {
         string playerName = "Test Player";
         // Player and CPU variable to store choices.
         int playerChoice;
-        int cpuChoice;
+        int playerChoice;
         // Player and CPU variable to store choices.
         int playerChoice;
-        int cpuChoice;
+        int playerChoice;
   string cpuScore
 
 
@@ -15,15 +15,13 @@ Console.WriteLine("Welcome to the Rock, Paper, Scissors Boy! /n");
 Console.WriteLine("Please type your name and press ENTER. /n");
 playerName = Console.ReadLine();
 Console.WriteLine("please type yes or no, then press enter./n");
- string isCorrect = Console.ReadLine().ToLower();
-
-  if (isCorrect == "yes")
+ int loopReqs = 0; // Req / Req is universal abbrv. for REQUEST / REQUESTS
+Console.WriteLine("How many loops do you need?/nType an INTERGER and press ENTER. /n");
+  loopReqs = Convert.ToInt32(Console.ReadLine());
    {
-       Console.WriteLine("Great! I'll call you {playerName}./n")
+      while (loopCount < loopReqs)
    }
-   else if (isCorecct == "no")
-   {
-         Console.WriteLine{"Please type your name and press ENTER."}
+  
         playerName = Console.ReadLine();
    }
     else
@@ -46,7 +44,7 @@ Console.WriteLine("please type yes or no, then press enter./n");
     -- Scissors Beats Paper
 
     The winner will receive a point.
-    The first player to score 5 points will be declared the winner.
+  
     """)
 
 
@@ -59,17 +57,16 @@ Console.WriteLine("please type yes or no, then press enter./n");
     // Output the results to the screen.
     // Give the winner a point.
 
-
-
-
-
-
-  // Allow CPU to select randomly.
+   }
+   else
+   {
+        Console.WriteLine("Unable to determine Player choice.\n");
+   }  
     
-
-
-
-
+   // Compare the two choices and determine a winner.
+   if (playerChoice == "rock" && cpuChoice == "paper")
+   {
+        // Console.WriteLine
 
 
 
