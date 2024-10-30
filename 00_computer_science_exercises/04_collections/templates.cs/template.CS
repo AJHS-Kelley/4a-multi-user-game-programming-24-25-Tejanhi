@@ -26,3 +26,5 @@ class 04_Collections {
   Console.WriteLine("The elements of each array are:\n");
   Console.WriteLine("breakfastFoods: \n" + String.Join (",", breakfastFoods));
   Console.WriteLine(); // Print an empty line to the screen.
+  }
+}
