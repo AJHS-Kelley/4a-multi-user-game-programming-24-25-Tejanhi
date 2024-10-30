@@ -28,3 +28,10 @@ class 04_Collections {
   Console.WriteLine(); // Print an empty line to the screen.
   }
 }
+ // Print Array Contents -- All Elements on Single Line
+  Console.WriteLine("The elements of each array are:\n");
+  Console.WriteLine("breakfastFoods: \n" + String.Join ("\n", breakfastFoods));
+  Console.WriteLine(); // Print an empty line to the screen.
+// How long is my array? DETERMINING ARRAY LENGHT 
+  Console.WriteLine("The length of the breakFastFoods array is:" + breakfastFoods);
+  // .Lenght is known as PROPERTY of the array.
