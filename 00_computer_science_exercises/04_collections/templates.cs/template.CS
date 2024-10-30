@@ -40,3 +40,5 @@ class 04_Collections {
   Console.WriteLine("The first element is breakFastFoods is:" + breakFastFoods[0];)
   // PRINT THE 2nd ELEMENT OF THE testScores array.
   // PRINT THE 3rd ELEMENT OF THE GPA array.
+    }
+}
