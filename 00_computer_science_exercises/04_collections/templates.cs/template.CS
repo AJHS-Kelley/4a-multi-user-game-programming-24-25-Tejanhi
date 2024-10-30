@@ -21,3 +21,8 @@ class 04_Collections {
   string[] breakfastFoods = {"Bacon", "Eggs", "Cold Pizza", "Capn' Crunch",}
   int[] testScore = {0, 25, 15, 75, 99};
   double[] GPA = {0.27d, 1.99D, 4.02D, 0.0D, 3.25};
+
+  // Print Array Contents -- All Elements on Single Line
+  Console.WriteLine("The elements of each array are:\n");
+  Console.WriteLine("breakfastFoods: \n" + String.Join (",", breakfastFoods));
+  Console.WriteLine(); // Print an empty line to the screen.
