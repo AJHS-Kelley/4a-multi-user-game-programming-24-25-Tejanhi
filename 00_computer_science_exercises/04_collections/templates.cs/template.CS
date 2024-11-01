@@ -22,11 +22,11 @@ class 04_Collections {
   int[] testScore = {0, 25, 15, 75, 99};
   double[] GPA = {0.27d, 1.99D, 4.02D, 0.0D, 3.25};
 
-  // Print Array Contents -- All Elements on Single Line
-  Console.WriteLine("The elements of each array are:\n");
-  Console.WriteLine("breakfastFoods: \n" + String.Join (",", breakfastFoods));
-  Console.WriteLine(); // Print an empty line to the screen.
-  }
+  // // Print Array Contents -- All Elements on Single Line
+  // Console.WriteLine("The elements of each array are:\n");
+  // Console.WriteLine("breakfastFoods: \n" + String.Join (",", breakfastFoods));
+  // Console.WriteLine(); // Print an empty line to the screen.
+  /*
 }
  // Print Array Contents -- All Elements on Single Line
   Console.WriteLine("The elements of each array are:\n");
@@ -40,5 +40,25 @@ class 04_Collections {
   Console.WriteLine("The first element is breakFastFoods is:" + breakFastFoods[0];)
   // PRINT THE 2nd ELEMENT OF THE testScores array.
   // PRINT THE 3rd ELEMENT OF THE GPA array.
-    }
-}
+
+  // Shortcut to Access Last Item in an Array
+  //Console.WriteLine("The last element of breakFastFoods is:" + breakFastFoods[breakfastFoods.Lenght - 1]);
+ //Console.WriteLine("The last element of testScores is: " + testScores[testScores.Length - 1]);
+
+// CHANGING ELEMENTS IN THE ARRAY
+breakfastFoods[2] = "Green Eggs and Ham";
+testScores[0] = -1;
+GPA[1] = 4.0D;
+Console.WriteLine("The elements of each array are:\n");
+Console.WriteLine("breakFASTFoods: \n" + String.Join (",", breakfastFoods));
+Console.WriteLine(); // Print an empty line to the screen.
+*/
+
+// COMMON ERRORS WITH ARRAYS
+Console.WriteLine(breakfastFoods[99]); // Index Out of Bounds -- Accessing index that does not exist in the array.
+
+//testScores[0] = "99"; // eRROR mESSAGE "Cannot implicity convert dataType to dataType"
+// Trying to put incorrect data type into the array.
+
+  } // DO NOT EVER, 3 SPACES INDENTED FROM LEFT
+} // DO NOT DELETE EVER, ALWAYS TOUCHING LEFT MARGIN  
