@@ -107,3 +107,38 @@ var exampleArrList2 = new ArrayList()
 Console.WriteLine(newList[0]);
 newList.Remove(-10);
 Console.WriteLine
+
+ // Deleting based on index number.
+ // .RemoveAt(Value) --> deletes the item at the specified index
+   newList.RemoveAt(4);
+
+  } // DO NOT EVER, 3 SPACES INDENTED FROM LEFT
+} // DO NOT DELETE EVER. ALWAYS TOUCHING LEFT MARGIN
+
+  //Delete the Last Item
+  newList.RemoveAt(newList.Length - 1);
+
+   // Remove an entire range of elements.
+   // .RemoveRange(FirstIndex, LastIndex)
+    newList,RemoveRange(3, 8)
+    
+    // Shortcut to Delete from one item through end of list.
+    newList.RemoveRange(4, newList.Length - 1);
+
+  // Does the ArrayList contain a certain value.
+  // .Contains(value) returns true if the list has that value, false otherwise.
+  new playerInventory = new ArrayList()
+  {
+    "Sword", "Shield", "Bazooka", "1-Up Power-up", "Death Notebook", "Potato"
+  };
+
+  Console.WriteLine(playerInventory.Contains("Fishing ole"));
+  Console.WriteLine(playerInventorty.Contains("Sword"))
+
+  if (playerInventorty.Contains("Blue Key"))
+  {
+     // Do something
+  }
+
+
+  
